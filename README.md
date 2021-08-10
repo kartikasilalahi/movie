@@ -28,4 +28,4 @@ yarn start
 
 
 ## Note: 
-### Answers to Anagram logic test questions are in the Anagram.js file. Thank you
+### The solution for Anagram logic test questions is in the Anagram.js file. Thank you
