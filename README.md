@@ -25,3 +25,7 @@ yarn
 
 ## run it locally on localhost:3000
 yarn start
+
+
+## Note: 
+### Answers to Anagram logic test questions are in the Anagram.js file. Thank you
