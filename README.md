@@ -12,15 +12,15 @@ Features:
 
 
 
-# Installation
-# clone repo
+## Installation
+clone repo:
 git clone https://github.com/kartikasilalahi/movie.git
 
-# change your directory to project directory
+## change your directory to project directory
 cd movie
 
-# install project dependencies
+## install project dependencies
 yarn
 
-# run it locally on localhost:3000
+## run it locally on localhost:3000
 yarn start
