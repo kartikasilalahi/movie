@@ -1,7 +1,8 @@
 # REACT JS + OMDB API
 
 A simple React app for movies that consume data from http://www.omdbapi.com
-Features:
+
+### Features:
 - Display List of movies
 - Infinite Scroll
 - Search movies by keyword
