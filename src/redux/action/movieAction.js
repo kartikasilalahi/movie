@@ -1,5 +1,6 @@
 import Axios from 'axios'
-import { API, API_KEY } from '../../config'
+// import { API, API_KEY } from '../../config'
+import { API, API_KEY } from '../../api'
 import swal from 'sweetalert'
 import {
     GET_LIST_MOVIE_REQUEST,
@@ -56,7 +57,6 @@ const GetDetailReq = () => {
     }
 }
 const GetDetailSuccess = (data) => {
-    // console.log("drtt", data)
     return {
         type: GET_DETAIL_MOVIE_SUCCESS,
         payload: data
@@ -90,7 +90,6 @@ const SearhMovieRew = () => {
     }
 }
 const SearchMovieSuccess = (data) => {
-    // console.log("drtt", data)
     return {
         type: SEARCH_MOVIE_SUCCESS,
         payload: data
@@ -142,10 +141,6 @@ export const GetMore = (s, type, y, page) => {
                     dispatch(GetMoreSucces({ data: list.data.Search, page: newPage, keyword: s }))
                 }
             } catch (error) {
-                // swal("Oops", `Message from OMDB API, ${error.response.data.Error}`, "warning")
-                //     .then(() => {
-                //         window.location.href = "/"
-                //     })
             }
         }
     )
