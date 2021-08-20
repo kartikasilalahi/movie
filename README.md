@@ -2,6 +2,8 @@
 
 A simple React app for movies that consume data from http://www.omdbapi.com
 
+klik the demo: https://omdb-findmovie.netlify.app/
+
 ### Features:
 - Display List of movies
 - Infinite Scroll
